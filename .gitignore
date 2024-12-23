@@ -9,6 +9,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+/tumamina-e39e7-firebase-adminsdk-w58ty-e7a8ab16ab.json
 tumamina-e39e7-firebase-adminsdk-w58ty-e7a8ab16ab.json
 # macOS
 .DS_Store
