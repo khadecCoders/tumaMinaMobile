@@ -31,7 +31,6 @@
       "runtimeVersion": "1.0.2"
     },
     "android": {
-      "softwareKeyboardLayoutMode": "pan",
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
