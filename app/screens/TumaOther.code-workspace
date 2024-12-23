@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../../../Applications/XAMPP/xamppfiles/htdocs/Payment"
+		},
+		{
+			"path": "../../../5AFEYE-App-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Payment"
+	}
+}

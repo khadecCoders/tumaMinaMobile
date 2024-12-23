@@ -1,0 +1,8 @@
+        <Tab.Screen name='Tasks' component={Orders} options={{
+          tabBarIcon: ({focused}) => (
+            <View style={{alignItems: 'center', justifyContent: 'center', top: 10}}>
+              <MaterialCommunityIcons name='file-document-multiple-outline' size={20} color={focused ? COLORS.button : COLORS.outline}/>
+              <Text style={{color: focused ? COLORS.button : COLORS.outline, fontSize: 13}}>{profile.accountType === 'Public' ? 'Deliveries' : 'Tasks'} </Text>
+            </View>
+          )
+        }}/>

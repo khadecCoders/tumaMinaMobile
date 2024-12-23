@@ -1,0 +1,108 @@
+{
+  "expo": {
+    "name": "Tuma Mina",
+    "slug": "tumamina",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tumamina",
+    "userInterfaceStyle": "automatic",
+    // "splash": {
+    //   "image": "./assets/images/splash.png",
+    //   "resizeMode": "contain",
+    //   "backgroundColor": "#ffffff"
+    // },
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.tumamina.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyB7dvWHUwR79DpoVg_ncyQKpIwd2xM8KWs"
+      },
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "tel",
+          "sms"
+        ]
+      },
+      "entitlements": {
+        "aps-environment": "production"
+      },
+      "runtimeVersion": "1.0.2"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.coderdeezy.myapp",
+      "versionCode": 0,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA8xyD6m-9xbszPI_XBKRKlU2wrPUp80NQ"
+        }
+      },
+      "permissions": [
+        "android.permission.ACCESS_FOREGROUND_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Tuma Mina to use your location, this app uses location to calculate the pricing based on your location distance."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static",
+            "deploymentTarget": "13.4"
+          }
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Tuma Mina Would Like To Access Your Camera",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/noti.png"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7540f3af-f8f6-4b34-956a-cafda23eadf2"
+      }
+    },
+    "owner": "khadecmagic",
+    "updates": {
+      "url": "https://u.expo.dev/7540f3af-f8f6-4b34-956a-cafda23eadf2"
+    }
+  }
+}

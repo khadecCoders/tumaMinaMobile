@@ -1,0 +1,5 @@
+
+Fixes:
+- Maps snap to current location
+- ExpoToken not getting
+- 

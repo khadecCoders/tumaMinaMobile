@@ -1,0 +1,23 @@
+### Ios simulator dev build
+ eas build --profile development-simulator --platform ios
+
+### Ios simulator build
+eas build -p ios --profile preview
+
+### Ios app store build
+eas build --platform ios  
+
+### Ios app store submit
+eas submit -p ios --latest              
+
+### Android dev build
+eas build --profile development --platform android
+
+### Android  build
+eas build -p android --profile preview
+
+### Android playstore  build
+eas build -p android --profile production
+
+### Publish an update
+eas update --channel preview --message "First OTA update"

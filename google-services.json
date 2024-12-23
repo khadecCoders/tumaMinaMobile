@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "174519128936",
+    "firebase_url": "https://tumamina-e39e7-default-rtdb.firebaseio.com",
+    "project_id": "tumamina-e39e7",
+    "storage_bucket": "tumamina-e39e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174519128936:android:af732043312346a93dbcdd",
+        "android_client_info": {
+          "package_name": "com.coderdeezy.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmgId2R0Wn9LZwSazmUMsu2SO2uNmZJec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

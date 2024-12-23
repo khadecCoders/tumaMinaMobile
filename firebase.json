@@ -1,0 +1,14 @@
+{
+    "type": "react-native",
+    "dependencies": {
+      "firebase": {
+        "apiKey": "AIzaSyBdeM24jxnOiujDbudFqzCB4eMigMhYNGs",
+        "authDomain": "tumamina-e39e7.firebaseapp.com",
+        "projectId": "tumamina-e39e7",
+        "storageBucket": "tumamina-e39e7.appspot.com",
+        "messagingSenderId": "174519128936",
+        "appId": "1:174519128936:web:dafd01409927bb693dbcdd"
+      }
+    }
+  }
+  
